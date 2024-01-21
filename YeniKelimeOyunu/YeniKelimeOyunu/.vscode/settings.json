@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "path/to/your/java/sdk/lib/sound.jar",
+        "path/to/another/library.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

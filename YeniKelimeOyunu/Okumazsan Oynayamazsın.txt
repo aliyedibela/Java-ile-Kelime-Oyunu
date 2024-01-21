@@ -1,0 +1,53 @@
+Çekilen sorularý veritabanýna yükleyemedik. 
+
+
+Oynayabilmek istiyorsanýz aþaðýda yazýlanlarý yapmak zorundasýnýz.
+
+
+
+1 - Bilgisayarýnýza MySQL Workbench'i yükleyin ve Hizmetler(Services) kýsmýndan veritabaný hizmetini açýn.
+
+
+
+2 - Dosyalar içinde bulunan KelimeOyunuDatabase.sql adlý dosyayý MySQL Workbench ile açýn.
+
+
+
+
+3 - Kaynak kodlarýnda DB.java dosyasýnda, DB sýnýfýnda bulunan,
+
+con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kelime_oyunu", "root", "root"); kod parçacýðýndaki
+
+root kýsýmlarýný MySQL Workbench üzerinde oluþturduðunuz kullanýcý adý ve þifreyle deðiþtirin.
+
+
+
+
+4 - jdbc:mysql://localhost:3306/
+
+localhost:3306 kýsmý herkeste ayný deðildir onu da uygulamadaki deðerle deðiþtirmeniz gerekmektedir.
+
+
+
+Kýsacasý size verdiðimiz veritabanýný MySQL Workbench'e ekleyip yukarýda verdiðim DB sýnýfýndaki kod parçacýðýný kendinize uygun þekilde deðiþtireceksiniz.
+Video izleme sitelerine "MySQL nasýl kurulur, nasýl baðlanýlýr" ve "MySQL Workbench Kurulumu" yazarsanýz kurulumu izleyerek de kendinize uyarlayabilirsiniz.
+
+
+
+Ek////
+
+NewMain metodu uygulamayý JavaFX kullanarak oluþturduðumuzdan dolayý exe dosyasý oluþtururken sorun yaþamamak için konulmuþtur.
+
+Siz de isterseniz exe dosyasý oluþturabilirsiniz.
+
+
+
+OyunEkranController.java dosyasýndaki kodlar ana oyun için tasarlanmýþtýr.
+
+Bu dosyaya binaen oluþturulan OyunEkranControllerPink.java, OyunEkranControllerGreen.java, OyunEkranControllerBlue.java, OyunEkranControllerOrange.java dosyalarý ekrana verilen png dosyalarýnda deðiþiklik yapýldýðý için ayrý dosya olarak sunulmuþtur.
+
+
+
+
+
+

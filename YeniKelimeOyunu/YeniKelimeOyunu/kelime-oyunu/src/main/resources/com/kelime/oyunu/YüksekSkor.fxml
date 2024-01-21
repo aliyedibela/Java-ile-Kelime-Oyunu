@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kelime.oyunu.YüksekSkorController">
+   <children>
+      <Label maxHeight="1080.0" maxWidth="1920.0" minHeight="0.0" minWidth="0.0" prefHeight="1080.0" prefWidth="1920.0" text="Label" />
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yuksekskorbackground.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="98.0" fitWidth="406.0" layoutX="1489.0" layoutY="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yüksekskorlogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="594.0" fitWidth="1060.0" layoutX="429.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yüksekskorsıralama.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="513.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALINAN YÜKSEK SKOR" wrappingWidth="668.0">
+         <font>
+            <Font name="FatFrank-Regular" size="67.0" />
+         </font>
+      </Text>
+      <Text fx:id="ys1" fill="WHITE" layoutX="698.0" layoutY="447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9800">
+         <font>
+            <Font name="FatFrank-Regular" size="74.0" />
+         </font>
+      </Text>
+      <Text fx:id="ys2" fill="WHITE" layoutX="698.0" layoutY="637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9800">
+         <font>
+            <Font name="FatFrank-Regular" size="74.0" />
+         </font>
+      </Text>
+      <Text fx:id="ys3" fill="WHITE" layoutX="698.0" layoutY="815.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9800">
+         <font>
+            <Font name="FatFrank-Regular" size="74.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="59.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@yüksekskorback.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="57.0" layoutY="41.0" mnemonicParsing="false" onAction="#GeriDonusButton" prefHeight="64.0" prefWidth="64.0" style="-fx-background-color: transparan;" />
+   </children>
+</AnchorPane>

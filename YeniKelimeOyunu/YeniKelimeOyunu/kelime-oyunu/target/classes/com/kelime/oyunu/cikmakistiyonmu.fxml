@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="150.0" minWidth="500.0" prefHeight="150.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kelime.oyunu.cikmakistiyonmucontroller">
+    <children>
+      <ImageView fitHeight="150.0" fitWidth="500.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cikmakistionmubackground.png" />
+         </image>
+      </ImageView>
+        <Label fx:id="label" minHeight="150.0" minWidth="500.0" />
+      <Button fx:id="hayirbutton" layoutX="140.0" layoutY="86.0" mnemonicParsing="false" onAction="#hayirbutton" style="-fx-background-color: #006d44; -fx-border-radius: 30; -fx-background-radius: 15;" text="HAYIR" textFill="WHITE">
+         <font>
+            <Font name="FatFrank-Regular" size="22.0" />
+         </font>
+      </Button>
+      <Text layoutX="118.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Çekilmek mi istiyorsunuz?" wrappingWidth="264.13671875">
+         <font>
+            <Font name="Dubai Regular" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="evetbutton" layoutX="266.0" layoutY="86.0" mnemonicParsing="false" onAction="#evetbutton" style="-fx-background-color: red; -fx-border-radius: 30; -fx-background-radius: 15;" text="EVET" textFill="WHITE">
+         <font>
+            <Font name="FatFrank-Regular" size="22.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
