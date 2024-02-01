@@ -1,50 +1,50 @@
-Çekilen soruları veritabanına yükleyemedik. 
+Ã‡ekilen sorularÄ± veritabanÄ±na yÃ¼kleyemedik. 
 
 
-Oynayabilmek istiyorsanız aşağıda yazılanları yapmak zorundasınız.
-
-
-
-1 - Bilgisayarınıza MySQL Workbench'i yükleyin ve Hizmetler(Services) kısmından veritabanı hizmetini açın.
+Oynayabilmek istiyorsanÄ±z aÅŸaÄŸÄ±da yazÄ±lanlarÄ± yapmak zorundasÄ±nÄ±z.
 
 
 
-2 - Dosyalar içinde bulunan KelimeOyunuDatabase.sql adlı dosyayı MySQL Workbench ile açın.
+1 - BilgisayarÄ±nÄ±za MySQL Workbench'i yÃ¼kleyin ve Hizmetler(Services) kÄ±smÄ±ndan veritabanÄ± hizmetini aÃ§Ä±n.
+
+
+
+2 - YeniKelimeOyunu/YeniKelimeOyunu/kelime-oyunu/src/main/resources/com/kelime/oyunu/KelimeOyunuDatabase.sql adlÄ± dosyayÄ± MySQL Workbench ile aÃ§Ä±n.
 
 
 
 
-3 - Kaynak kodlarında DB.java dosyasında, DB sınıfında bulunan,
+3 - Kaynak kodlarÄ±nda DB.java dosyasÄ±nda, DB sÄ±nÄ±fÄ±nda bulunan,
 
-con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kelime_oyunu", "root", "root"); kod parçacığındaki
+con = DriverManager.getConnection("jdbc:mysql://localhost:3306/kelime_oyunu", "root", "root"); kod parÃ§acÄ±ÄŸÄ±ndaki
 
-root kısımlarını MySQL Workbench üzerinde oluşturduğunuz kullanıcı adı ve şifreyle değiştirin.
+root kÄ±sÄ±mlarÄ±nÄ± MySQL Workbench Ã¼zerinde oluÅŸturduÄŸunuz kullanÄ±cÄ± adÄ± ve ÅŸifreyle deÄŸiÅŸtirin.
 
 
 
 
 4 - jdbc:mysql://localhost:3306/
 
-localhost:3306 kısmı herkeste aynı değildir onu da uygulamadaki değerle değiştirmeniz gerekmektedir.
+localhost:3306 kÄ±smÄ± herkeste aynÄ± deÄŸildir onu da uygulamadaki deÄŸerle deÄŸiÅŸtirmeniz gerekmektedir.
 
 
 
-Kısacası size verdiğimiz veritabanını MySQL Workbench'e ekleyip yukarıda verdiğim DB sınıfındaki kod parçacığını kendinize uygun şekilde değiştireceksiniz.
-Video izleme sitelerine "MySQL nasıl kurulur, nasıl bağlanılır" ve "MySQL Workbench Kurulumu" yazarsanız kurulumu izleyerek de kendinize uyarlayabilirsiniz.
+KÄ±sacasÄ± size verdiÄŸimiz veritabanÄ±nÄ± MySQL Workbench'e ekleyip yukarÄ±da verdiÄŸim DB sÄ±nÄ±fÄ±ndaki kod parÃ§acÄ±ÄŸÄ±nÄ± kendinize uygun ÅŸekilde deÄŸiÅŸtireceksiniz.
+Video izleme sitelerine "MySQL nasÄ±l kurulur, nasÄ±l baÄŸlanÄ±lÄ±r" ve "MySQL Workbench Kurulumu" yazarsanÄ±z kurulumu izleyerek de kendinize uyarlayabilirsiniz.
 
 
 
 Ek////
 
-NewMain metodu uygulamayı JavaFX kullanarak oluşturduğumuzdan dolayı exe dosyası oluştururken sorun yaşamamak için konulmuştur.
+NewMain metodu uygulamayÄ± JavaFX kullanarak oluÅŸturduÄŸumuzdan dolayÄ± exe dosyasÄ± oluÅŸtururken sorun yaÅŸamamak iÃ§in konulmuÅŸtur.
 
-Siz de isterseniz exe dosyası oluşturabilirsiniz.
+Siz de isterseniz exe dosyasÄ± oluÅŸturabilirsiniz.
 
 
 
-OyunEkranController.java dosyasındaki kodlar ana oyun için tasarlanmıştır.
+OyunEkranController.java dosyasÄ±ndaki kodlar ana oyun iÃ§in tasarlanmÄ±ÅŸtÄ±r.
 
-Bu dosyaya binaen oluşturulan OyunEkranControllerPink.java, OyunEkranControllerGreen.java, OyunEkranControllerBlue.java, OyunEkranControllerOrange.java dosyaları ekrana verilen png dosyalarında değişiklik yapıldığı için ayrı dosya olarak sunulmuştur.
+Bu dosyaya binaen oluÅŸturulan OyunEkranControllerPink.java, OyunEkranControllerGreen.java, OyunEkranControllerBlue.java, OyunEkranControllerOrange.java dosyalarÄ± ekrana verilen png dosyalarÄ±nda deÄŸiÅŸiklik yapÄ±ldÄ±ÄŸÄ± iÃ§in ayrÄ± dosya olarak sunulmuÅŸtur.
 
 
 
